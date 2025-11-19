@@ -9,10 +9,6 @@
 Bug 报告 · 功能请求 · 社区支持
 
 <p align="center">
-    <a title="Get From Microsoft Store" href="[zPlayer 正式版 Microsoft Store URL]" target="_blank">
-    📥 下载 zPlayer
-    </a>
-    |
     <a title="Full Introduction" href="ABOUT_ZPLAYER.md" target="_blank">💡 完整介绍</a>
 </p>
 

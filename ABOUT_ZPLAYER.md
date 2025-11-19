@@ -9,15 +9,15 @@
 让播放更智能，也更优雅
 
 <p align="center">
-    <a title="Get From Microsoft Store (Stable)" href="[zPlayer 正式版 Microsoft Store URL]" target="_blank">
+    <a title="Get From Microsoft Store (Stable)" href="https://apps.microsoft.com/detail/9N2P3RQ5VXXJ" target="_blank">
     ⭐ 正式版下载
     </a>
     |
-    <a title="Get From Microsoft Store (Insider)" href="[zPlayer Insider 版本 Microsoft Store URL]" target="_blank">
+    <a title="Get From Microsoft Store (Insider)" href="https://apps.microsoft.com/detail/9N7WV1DDL1GX" target="_blank">
     🧪 Insider 版下载
     </a>
     |
-    <a title="Feedback & Issues" href="https://github.com/你的用户名/zPlayer-Feedback/issues" target="_blank">
+    <a title="Feedback & Issues" href="https://github.com/ZhaoYunxiong/zPlayer-Support/issues" target="_blank">
     🔊 反馈中心
     </a>
 </p>
@@ -91,5 +91,5 @@ zPlayer 想陪您慢下来，让智能与设计共生，让播放成为一种生
 
 #### 🔗 联系我们
 
-* **反馈与 Bug 报告：** [本仓库 Issues 区，点击提交 Issue](https://github.com/ZhaoYunxiong/zPlayer-Feedback/issues)
+* **反馈与 Bug 报告：** [本仓库 Issues 区，点击提交 Issue](https://github.com/ZhaoYunxiong/zPlayer-Support/issues)
 * **其他联系方式：** panda8833657@live.com
