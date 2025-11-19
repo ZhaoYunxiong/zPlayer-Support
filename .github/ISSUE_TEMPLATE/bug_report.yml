@@ -1,0 +1,75 @@
+name: 🐛 Bug 报告 (Bug Report)
+description: 提交 Bug 以帮助我们提高 zPlayer 的应用体验。
+title: "[BUG] 简短描述你的问题"
+labels:
+  - "bug"
+assignees: ZhaoYunxiong
+body:
+- type: markdown
+  attributes: 
+    value: |
+      ## 🚨 提交前必读 / Read Before Submitting
+      请务必完整、清晰地填写下面的内容。缺少必要信息的 Bug 报告，我们可能无法跟进调查。
+      Be sure to fill out the following completely. Issues missing necessary information may be closed without investigation.
+      
+- type: textarea
+  id: description
+  validations:
+    required: true
+  attributes:
+     label: Bug 描述 / Issue Description
+     description: 请简短清晰地描述你遇到的问题或非预期的行为。
+     placeholder: 例如：播放器在全屏模式下点击暂停键会崩溃。
+- type: textarea
+  id: repro-steps
+  validations:
+    required: true
+  attributes:
+     label: 复现问题的步骤 / Steps to Reproduce
+     render: plain text
+     description: 请提供详细、干净的复现步骤。
+     placeholder: |
+        1. ...
+        2. ...
+        3. ...
+- type: textarea
+  id: expected-behavior
+  validations:
+    required: true
+  attributes:
+     label: 预期行为 / Expected Behavior
+     description: 简要描述你希望 zPlayer 在此操作下应有的正常表现。
+- type: input
+  id: zplayer-version
+  validations:
+    required: true
+  attributes:
+     label: zPlayer 版本号 / zPlayer Version
+     description: 请填写你使用的 zPlayer 具体版本号。
+     placeholder: 例如：v1.1.0
+
+# --- 跨平台和架构信息 ---
+- type: dropdown
+  id: os-platform
+  validations:
+    required: true
+  attributes:
+     label: 操作系统 / Operating System
+     description: 请选择你运行 zPlayer 的操作系统。
+     options:
+       - Windows
+       - macOS
+       - Linux
+       - Android
+       - iOS
+
+- type: dropdown
+  id: processor-arch
+  validations:
+    required: true
+  attributes:
+     label: 处理器架构 / Processor Architecture
+     description: 请选择你的设备使用的处理器架构。
+     options:
+       - x64
+       - ARM64

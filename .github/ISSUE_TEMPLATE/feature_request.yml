@@ -1,0 +1,25 @@
+name: ✨ 功能请求 (Feature Request)
+description: 建议一个新的功能或改进。
+title: "[FEATURE] 简短描述你希望的功能"
+labels: ["feature request"]
+body:
+- type: markdown
+  attributes: 
+    value: |
+      ## 💡 提交新想法 / Submit New Idea
+      感谢你对 zPlayer 的支持！请用清晰的语言描述你的建议。
+      
+- type: textarea
+  id: problem
+  validations:
+    required: true
+  attributes:
+     label: 你希望解决什么问题？ / What problem are you trying to solve?
+     description: 描述一下当前的功能让你觉得不方便或缺少什么。
+- type: textarea
+  id: proposal
+  validations:
+    required: true
+  attributes:
+     label: 你的建议功能是什么？ / What is your feature proposal?
+     description: 清晰地描述你想要的新功能/改进是什么样子的，以及它能给用户带来什么好处。
